@@ -24,13 +24,6 @@ const Layout = props => (
 
     {props.children}
 
-    <AmpIncludeAmpInstallServiceworker />
-    <amp-install-serviceworker
-      src="/serviceworker.js"
-      data-iframe-src="/install-serviceworker.html"
-      layout="nodisplay"
-    />
-
     <style jsx global>{`
       body {
         margin: 0;
